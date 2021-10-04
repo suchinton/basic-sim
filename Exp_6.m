@@ -12,12 +12,12 @@ s2 = cos(2*pi*f0*t);
 
 %% Multiple Plots 
 
-%figure;
-%plot(t,s1.t.s2);
-%title('Sine,Cosine Wave');
-%xlabel('Time(s)');
-%ylabel('Amplitude');
-%legend('sin','cos');
+figure;
+plot(t,s1,t,s2);
+title('Sine,Cosine Wave');
+xlabel('Time(s)');
+ylabel('Amplitude');
+legend('sin','cos');
 
 s1a = sin(2*pi*f0*2*t);
 s1b = sin(2*pi*f0*4*t);
