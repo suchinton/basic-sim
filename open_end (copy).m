@@ -5,25 +5,25 @@ pkg load image
 %% reading image from active dir %%
 
 img = imread('batman-returns.jpg');
-subplot(2,2,1)
+figure
 imshow(img)
 title('Original Image')
 
 %% converting image to graysclae %% 
 graysclae = rgb2gray(img);
-subplot(2,2,2)
+figure
 imshow(graysclae)
 title('converted Grayscale')
 
 %% sharpening img %%
 
-sharpen = imsharpen(graysclae, 'amount',1.2);
-subplot(2,2,3)
+sharpen = imsharpen(graysclae, 'amount',2);
+figure
 imshow(sharpen)
 title('Sharpened image')
 
 %% smoothening img %%
 smooth = imsmooth(graysclae,'Average');
-subplot(2,2,4)
+figure
 imshow(smooth)
 title('Smoothened image')
