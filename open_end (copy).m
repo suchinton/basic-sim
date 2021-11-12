@@ -4,7 +4,7 @@ clc
 pkg load image
 %% reading image from active dir %%
 
-img = imread('batman-returns.jpg');
+img = imread('batman-returns.jpg'); %% can be .jpg or .png %%
 figure
 imshow(img)
 title('Original Image')
@@ -13,7 +13,7 @@ title('Original Image')
 graysclae = rgb2gray(img);
 figure
 imshow(graysclae)
-title('converted Grayscale')
+title('Converted Grayscale')
 
 %% sharpening img %%
 
