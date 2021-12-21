@@ -28,16 +28,16 @@ figure;
 
 subplot(2,2,1);
 plot(t,s1a);
-title('sin(2\pif_0*2t');
+title('sin(2\pif_0*2t)');
 
 subplot(2,2,2);
 plot(t,s1b);
-title('sin(2\pif_0*4t');
+title('sin(2\pif_0*4t)');
 
 subplot(2,2,3);
 plot(t,s1c);
-title('sin(2\pif_0*0.25t');
+title('sin(2\pif_0*0.25t)');
 
 subplot(2,2,4);
 plot(t,s1d);
-title('sin(2\pif_0*0.0625t');
+title('sin(2\pif_0*0.0625t)');
